@@ -16,7 +16,7 @@ public class TripController : ControllerBase
     }
 
     [HttpPost]
-    private async Task<IActionResult> AddClientToTrip(ClientToAddDto clientToAddDto)
+    public async Task<IActionResult> AddClientToTrip(ClientToAddDto clientToAddDto)
     {
         try
         {

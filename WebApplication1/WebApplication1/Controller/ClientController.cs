@@ -15,7 +15,7 @@ public class ClientController: ControllerBase
     }
 
     [HttpDelete("{id}")]
-    private async Task<IActionResult> DeleteClient(int id)
+    public async Task<IActionResult> DeleteClient(int id)
     {
         try
         {
